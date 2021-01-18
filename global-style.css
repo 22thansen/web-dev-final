@@ -1,0 +1,130 @@
+:root {
+  --light: #F9F9F9;
+  --gray: #8CB1BC;
+  --orange: #F5962C;
+  --red: #CF4242;
+  --dark: #313140;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: var(--light);
+  font-family: Comfortaa, sans-serif;
+  font-size: 1.5em;
+}
+
+
+/* * * FLEX * * */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-left {
+  justify-content: flex-start;
+}
+
+.flex-right {
+  justify-content: flex-end;
+}
+
+.flex-vcenter {
+  align-items: center;
+}
+
+/* * * Header * * */
+
+header {
+  width: 100%;
+  /*height: 15vh;*/
+  margin: 10px 0px 0px 0px;
+}
+
+
+header nav ul {
+  height: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  list-style-type: none;
+  
+}
+
+header nav li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header a {
+  text-decoration: none;
+  
+  color: var(--dark);
+}
+
+
+#home {
+  display: none;
+}
+
+
+
+
+
+
+.primary-button {
+  background-color: var(--orange);
+  border: 2px solid var(--light);
+  color: var(--light);
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+
+
+/* * * BUTTONS * * */
+
+.primary-button:hover {
+  background-color: var(--light);
+  border-color: var(--orange);
+  color: var(--dark);
+  
+}
+
+
+.ghost-button {
+  
+}
+
+
+/* * * SECTIONS * * */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
