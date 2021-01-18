@@ -1,0 +1,52 @@
+/* * * SECTION * * */
+
+#hero {
+  
+}
+
+#hero h1 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+#terminal {
+  background: var(--orange);
+  height: 50vh;
+  padding-top: 30px;
+}
+
+#terminal h1 {
+  color: var(--light);
+}
+
+#terminal .code {
+  font-family: Inconsolata;
+  background: var(--dark);
+  color: var(--light);
+  
+  height: 100%;
+  width: 95%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 20px;
+  bottom: -10px;
+  padding: 10px;
+}
+
+#terminal .command {
+  color: var(--gray);
+}
+
+#terminal .response {
+  color: var(--light);
+}
+
+
+
+
+
+
+
+
+
