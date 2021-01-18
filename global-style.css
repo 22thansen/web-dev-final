@@ -22,16 +22,20 @@ body {
 h1 {
   font-weight: 400;
   font-size: 1.2em;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-right: 20%;
 }
 
-.vr {
-  color: var(--gray);
-  
-  display: inline;
-  
+h2 {
+  font-size: 1em;
 }
+
+.vr {
+  width: 1px;
+  background: var(--gray);
+  height: 1.2em;
+}
+
 
 
 
@@ -96,11 +100,11 @@ header a {
 }
 
 
-
-
-
+/* * * BUTTONS * * */
 
 .primary-button {
+  text-align: center;
+  font-family: Comfortaa;
   background-color: var(--orange);
   border: 2px solid var(--light);
   color: var(--light);
@@ -109,8 +113,6 @@ header a {
   transition: all 0.2s ease;
 }
 
-
-/* * * BUTTONS * * */
 
 .primary-button:hover {
   background-color: var(--light);
@@ -139,10 +141,14 @@ section {
 footer {
   background: var(--dark);
   color: var(--light);
-  height: 30vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
+}
+
+footer .bottom {
+  margin-bottom: 20px;
 }
 
 footer .bottom hr {
@@ -150,10 +156,46 @@ footer .bottom hr {
   border-color: var(--gray);
 }
 
+footer .bottom p {
+  font-size: 0.7em;
+  margin-left: 10%;
+  color: var(--gray);
+}
+
+footer ul {
+  
+}
 
 
 
-
+@media only screen and (max-width: 816px) {
+  
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    flex-direction: column;
+    height: 11em;
+  }
+  
+  header .flex-item {
+    margin-top: 7px;
+  }
+  
+  header .vr {
+    //display: none;
+    height: 1px;
+    width: 25%;
+  }
+  
+  
+  .flex-container {
+    flex-direction: column;
+  }
+  
+}
 
 
 

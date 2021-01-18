@@ -5,6 +5,7 @@
 <head>
   <!-- Title -->
   <title>OMGenius | Home</title>
+  <link rel="icon" href="assets/favicon.png">
   
   <!-- Meta -->
   <meta charset="utf-8">
@@ -25,35 +26,35 @@
 <body>
 
   <header>
-
     <nav>
 
       <ul>
         
         <div class="flex-container flex-left flex-vcenter">
-          <li>
+          <li class="flex-item">
             <a href="index.html">
               <img src="assets/omgenius-logo-lightmode.png" alt="OMGenius Logo" title="Home">
               <p id="home">Home</p>
             </a>
           </li>
           
-          <li>
+          <li class="flex-item">
             <a href="omg/features.html">
               Features
             </a>
-            <div class="vr">&nbsp;</div>
           </li>
+          
+          <div class="vr flex-item">&nbsp;</div>
 
-          <li>
+          <li class="flex-item">
             <a href="omg/community.html">
               Community
             </a>
-            <div class="vr">&nbsp;</div>
           </li>
 
+          <div class="vr flex-item">&nbsp;</div>
 
-          <li>
+          <li class="flex-item">
             <a href="omg/more.html">
               More
             </a>
@@ -64,7 +65,7 @@
 
         <div class="flex-container flex-right flex-vcenter">
           <li>
-            <a href="omg/download.html" class="primary-button">
+            <a href="omg/download.html" class="primary-button download">
               Download
             </a>
           </li>
@@ -83,30 +84,69 @@
       <h1>Bringing you a simple and lightweight tool designed to do almost anything.</h1>
     </section>
     
+    <section id="how-it-works">
+      <h1>How it works</h1>
+      
+      <div class="flex-container">
+        
+        <div class="flex-item create">
+          <h2>Create Items</h2>
+          <img src="assets/create-new.png" alt="Creating a new portrait of yourself">
+        </div>
+        
+        <hr>
+        
+        <div class="flex-item add">
+          <h2>Add Item</h2>
+          <img src="assets/add-to-list.png" alt="Adding the portrait to the portraits list">
+        </div>
+        
+        <hr>
+        
+        <div class="flex-item checkout">
+          <h2>Checkout</h2>
+          <img src="assets/checkout.png">
+          <!--
+          <p class="primary-button" style="text-align: left; width: 165px; padding: 20px; margin-right: 30px;">Checkout list</p>
+-->
+        </div>
+        
+      </div>
+    </section>
     
     <section id="terminal">
       <h1>Full Terminal Support</h1>
       <div class="code">
         <p>
-          <span class="command">$ omg create new coin sound effect</span>
+          <span class="command">$ gni create new zombie sound effect</span>
           <br>
           <span class="response">
-            Created! This was added to your session list.
+            <span class="special">Created! This was added to your session list.</span>
             <br>
-            &nbsp;&nbsp;Type 'play' to hear the sound effect.
+            &nbsp;&nbsp;Type <span class="special-cmd">'gni play'</span> to hear the sound effect.
             <br>
-            &nbsp;&nbsp;Type 'omg regen' to try generating one again.
+            &nbsp;&nbsp;Type <span class="special-cmd">'gni regen'</span> to try generating one again.
             <br>
-            &nbsp;&nbsp;Type 'omg checkout' to download your session list
+            &nbsp;&nbsp;Type <span class="special-cmd">'gni checkout'</span> to download your session list
             <br>
-            &nbsp;&nbsp;Type 'omg delete' to remove this file from your session list.
+            &nbsp;&nbsp;Type <span class="special-cmd">'gni delete'</span> to remove this file from your session list.
           </span>
-          <br>
-          <span class="command">$ omg play</span>
+          <br><br>
+          <span class="command">$ gni play</span>
           <br>
           <span class="response"><i class="fas fa-volume-up"></i></span>
+          <br><br>
+          <span class="command">$ gni regen</span>
           <br>
-          <span class="command">$ omg regen</span>
+          <span class="response special">Regenerated!</span><br>
+          <br>
+          <span class="command">$ gni play</span>
+          <br>
+          <span class="response"><i class="fas fa-volume-up"></i></span>
+          <br><br>
+          <span class="command">$ gni checkout --zip --clipboard</span>
+          <br>
+          <span class="response special">Zipped your session list and copied to clipboard!</span>
         </p>
       </div>
     </section>
@@ -115,6 +155,7 @@
   
   
   <footer>
+    <!--
     <div class="flex-container">
       
       <div class="flex-item">
@@ -131,11 +172,11 @@
       </div>
       
     </div>
-    
+    -->
     <div class="bottom">
       <hr>
 
-      <p>OMGenius Contributors</p>
+      <p>&copy; 2020 OMGenius Contributors</p>
     </div>
     
   </footer>
