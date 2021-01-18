@@ -126,9 +126,21 @@ header a {
 
 
 .ghost-button {
+  text-align: center;
+  font-family: Comfortaa;
   background-color: var(--light);
   border-color: var(--dark);
   color: var(--dark);
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+
+.ghost-button:hover {
+  background-color: var(--red);
+  border-color: var(--white);
+  color: var(--light);
+  
 }
 
 
