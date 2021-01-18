@@ -1,0 +1,32 @@
+===============
+What I Learned
+===============
+
+Making websites with HTML and CSS is time consuming. Sometimes a little frustrating. You have to tweak the settings a lot for CSS to cooperate
+
+========================
+What I Am Most Proud Of
+========================
+Well I am proud that this OMGenius idea me and my brother came up with a long time ago has stuck around so long I could make a website for it! My brother's gonna see it complete for the first time today.
+
+====================================
+What I Would Improve with More Time
+====================================
+I would probably add a lot more things.
+Make the community page actually feel like it has a community / forum. Fix the "More" page's form formatting since it's a bit weird.
+I would also a night mode, and if you look in the mockups that was actually one of the things I was gonna add from the beginning. 
+
+================================
+Explanation of Design Decisions
+================================
+Color: I literally just went to colormind.io, clicked website colors, generated it a few times and picked the one I had. I liked the orange as the main color.
+
+Fonts: Well OMGenius is all about sleek in theory, so all the fonts should be as modern and slick as possible. I even tried to find a good monospaced font for the terminal section.
+
+Layouts: I took some inspiration from several websites like godotengine.org and celestegame.com, and one other but i forgot the name... anyway, with the inspiration it was pretty easy to freestyle the rest of the website.
+
+If im honest idk what the whole "flat design, content first, emphasis on typography" is... LOL
+
+
+
+
