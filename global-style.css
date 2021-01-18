@@ -30,6 +30,10 @@ h2 {
   font-size: 1em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .vr {
   width: 1px;
   background: var(--gray);
@@ -70,7 +74,6 @@ header {
   margin: 10px 0px 0px 0px;
   font-family: Comfortaa, sans-serif;
 }
-
 
 header nav ul {
   height: 100%;
@@ -139,12 +142,13 @@ section {
 /* * * FOOTER * * */
 
 footer {
-  background: var(--dark);
+  background: var(--gray);
   color: var(--light);
   height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  font-family: Comfortaa;
 }
 
 footer .bottom {
@@ -153,23 +157,21 @@ footer .bottom {
 
 footer .bottom hr {
   margin: 10px 10px;
-  border-color: var(--gray);
+  border-color: var(--dark);
 }
 
 footer .bottom p {
   font-size: 0.7em;
   margin-left: 10%;
-  color: var(--gray);
+  color: var(--dark);
 }
 
 footer ul {
   
 }
 
-
-
-@media only screen and (max-width: 816px) {
-  
+/* SMALL */
+@media only screen and (max-width: 639px) {
   h1 {
     margin: 0;
     text-align: center;
@@ -196,6 +198,40 @@ footer ul {
   }
   
 }
+
+/* MEDIUM */
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    flex-direction: column;
+    height: 11em;
+  }
+  
+  header .flex-item {
+    margin-top: 7px;
+  }
+  
+  header .vr {
+    //display: none;
+    height: 1px;
+    width: 25%;
+  }
+  
+  
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+/* LARGE */
+@media only screen and (min-width: 1024px) {
+  
+}
+
 
 
 

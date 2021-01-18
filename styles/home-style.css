@@ -18,6 +18,11 @@
   height: 50em;
 }
 
+#how-it-works h1 {
+  padding-top: 20px;
+  font-size: 1.7em;
+}
+
 #how-it-works .flex-container {
   
   flex-direction: column;
@@ -50,11 +55,12 @@
   text-align: center;
 }
 
+
 /* * * Terminal * * */
 
 #terminal {
   background: var(--orange);
-  height: 80vh;
+  height: 20em;
   padding-top: 30px;
   margin-bottom: 60px;
 }
@@ -95,15 +101,62 @@
   color: var(--red);
 }
 
+#download {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-@media only screen and (max-width: 816px) {
+#download a {
+  height: 30px;
+}
+
+/* SMALL */
+@media only screen and (max-width: 639px) {
+  #how-it-works h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #how-it-works .flex-item {
+    display: flex;
+    flex-direction: column;
+  }
+  #how-it-works .flex-item img {
+    width: 80%;
+  }
+  
+  #terminal {
+    height: 35em;
+  }
   
   #hero h1 {
     border-left: none;
     margin: 0 30px;
     padding: 0;
   }
+}
+
+/* MEDIUM */
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  #hero h1 {
+    border-left: none;
+    margin: 0 30px;
+    padding: 0;
+  }
   
+  #terminal {
+    height: 30em;
+  }
+  
+}
+
+/* LARGE */
+@media only screen and (min-width: 1024px) {
+  #terminal {
+    height: 25em;
+  }
 }
 
 
